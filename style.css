@@ -59,7 +59,6 @@ html {
 .container {
     background-color: hsl(212, 45%, 89%);
     height: 100vh;
-    min-width: 1440px; 
     display: flex;
     align-items: center;
     justify-content: center;  
@@ -68,7 +67,7 @@ html {
 .content {
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    width: 250px;
+    width: 350px;
     border-radius: 15px;
     flex-direction: column;
     padding: 15px;
@@ -77,26 +76,31 @@ html {
     justify-content: space-between;
 }
 .content >* {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     text-align: center;
+}
+
+p{
+    padding:0 20px;
+
 }
 
 p:nth-of-type(1){
     color: hsl(218, 44%, 22%);
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 p:nth-of-type(2) {
     color:hsl(217, 8%, 55%);
-    font-size: 0.8rem;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 img {
    width: 100%;
    border-radius: 10px;
 }
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
