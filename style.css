@@ -51,10 +51,10 @@ html {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Outfit', sans-serif;
     
 }
+
 
 .container {
     background-color: hsl(212, 45%, 89%);
@@ -68,23 +68,32 @@ html {
 .content {
     background-color: hsl(0, 0%, 100%);
     display: flex;
-    width: 300px;
-    border: 1px solid red;
-    border-radius: 10px;
+    width: 250px;
+    border-radius: 15px;
     flex-direction: column;
-    padding: 10px;
+    padding: 15px;
     box-sizing: border-box;
     align-items: center;
     justify-content: space-between;
 }
-
 .content >* {
     margin-bottom: 15px;
     text-align: center;
 }
 
+p:nth-of-type(1){
+    color: hsl(218, 44%, 22%);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+p:nth-of-type(2) {
+    color:hsl(217, 8%, 55%);
+    font-size: 0.8rem;
+}
+
 img {
-   width: 250px;
+   width: 100%;
    border-radius: 10px;
 }
 
